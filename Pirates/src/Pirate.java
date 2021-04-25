@@ -19,21 +19,23 @@ public class Pirate {
     }
 
     public String introduceNext() {
-        if (// has a wooden leg){
-        return ". I have a wooden leg and ";
-    }
-        else
+        if () { //// has a wooden leg
+            return ". I have a wooden leg and ";
+        } else {
+            return ". I still have my real legs and ";
+        }
 
-    {
-        return ". I still have my real legs and ";
-    }
+        public void work () {
+            goldPoints += 1;
+            healthPoints -= 1;
+        }
 
-    public void work() {
-        goldPoints += 1;
-        healthPoints -= 1;
+        public void party () {
+            healthPoints += 1;
+        }
     }
-
-    public void party() {
-        healthPoints += 1;
+    public void woodenLeg(){
+        //to assign an information who have wooden leg, boolean?
     }
 }
+
