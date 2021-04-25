@@ -1,0 +1,10 @@
+i:
+git remote -v program/data.txt
+git remote -v exam/data.txt
+
+ii:
+git merge program/assets/ exam/images/
+
+iii:
+git add .
+git commit -m "delete txt files and move image files"
